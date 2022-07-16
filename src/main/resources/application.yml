@@ -16,4 +16,6 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug
+//TODO
+  spring.profiles.include=oauth
 #  org.hibernate.type: trace
