@@ -2,6 +2,8 @@ package com.dong.webservice.springboot.config.auth;
 
 import com.dong.webservice.domain.user.User;
 import com.dong.webservice.domain.user.UserRepository;
+import com.dong.webservice.springboot.config.auth.dto.OAuthAttributes;
+import com.dong.webservice.springboot.config.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
